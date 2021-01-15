@@ -1,0 +1,7 @@
+Name,WProduction,WProcessing,WDistribution,WConsumption,GProduction,GProcessing,GDistribution,GConsumption,LProduction,LProcessing,LDistribution,LConsumption
+Beef,18.2,1.3,0.3,60,45,40,20,12,0.1,3,20,0
+Fish,0.4,0,0.1,5,0.4,0,15.6,5,60,4.5,23.2,10
+Milk,2.2,0.1,0.1,3,20,0,0.1,5,1,0,0.2,1.4,0.4
+Tomato,1,0,0.2,1.4,0.4,0,8.4,5,5,0.4,0,15.6
+Groundnuts,1.8,0.4,0.1,2.5,1,0,0.2,1.4,18.2,1.3,0.3,60
+

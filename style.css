@@ -1,0 +1,107 @@
+body {
+/*  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;*/
+	/*background-size: 100%;*/
+  display: inline-flex;
+/*  column-count: 3;*/
+}
+
+canvas {
+	/*height: 100%*/;
+	 /*width:100%;*/
+  display: inline-flex;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+#logo{
+	width: 20px;
+	height:20px;
+
+}
+
+#key{
+	
+	column-width: 250px;
+	height: 720px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+#key{
+	column-width: 150px;
+	height: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #FFFFFF;
+}
+}
+
+
+#draw{
+	display: inline;
+	column-width: 1025px;
+	height: 720px;
+	margin-left: 0;
+	margin-right: 0px;
+	margin-top: 0px;
+	
+}
+
+@media screen and (max-width: 600px) {
+#draw{
+	display: inline;
+	column-width: 1020px;
+	height: 100%;
+	margin-left: 0;
+	margin-right: 0px;
+	margin-top: 0px;
+	
+}
+}
+
+#filter{
+	
+	column-width: 250px;
+	height: 720px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	float: right;
+	background-color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 600px) {
+#filter{
+	column-width: 150px;
+	height: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: #FFFFFF;
+}
+}
